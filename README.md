@@ -1,0 +1,1 @@
+hello to everyone ,readng this file, THis is Smart ERP APP developed for attendance purposes , all codebase is efficiently developed by me, with comment added for every piece of code ,if u feel any problem anywhere reach me out at khanzoraiz53@gmail.com

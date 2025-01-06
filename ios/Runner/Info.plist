@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <!-- Flutter Configuration -->
+    <key>CFBundleName</key>
+    <string>TECH MECH</string>
+    <key>CFBundleDisplayName</key>
+    <string>TECH MECH</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleVersion</key>
+    <string>1.0.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>armv7</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+
+    <!-- Permissions -->
+    
+    <!-- Location Permissions -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We use your location to provide personalized content.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>We use your location to provide personalized content even when the app is in the background.</string>
+
+    <!-- Camera Permission -->
+    <key>NSCameraUsageDescription</key>
+    <string>We need access to your camera to take photos.</string>
+
+    <!-- Photo Library Permissions -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need access to your photo library to upload images.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>We need permission to add photos to your photo library.</string>
+
+    <!-- Biometric Authentication -->
+    <key>NSFaceIDUsageDescription</key>
+    <string>We use Face ID to secure your account.</string>
+
+    <!-- Notifications -->
+    <key>NSUserNotificationUsageDescription</key>
+    <string>We send notifications to keep you updated.</string>
+
+    <!-- App Transport Security -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+      <!-- Alternatively, specify exceptions for specific domains:
+      <key>NSExceptionDomains</key>
+      <dict>
+        <key>example.com</key>
+        <dict>
+          <key>NSIncludesSubdomains</key>
+          <true/>
+          <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+        </dict>
+      </dict>
+      -->
+    </dict>
+
+    <!-- Additional Configurations -->
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>We use Bluetooth to connect to external devices.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>We need access to your microphone to record audio.</string>
+    <key>NSMotionUsageDescription</key>
+    <string>We use motion data to enhance your experience.</string>
+    
+    <!-- Flutter Engine Settings -->
+    <key>io.flutter.embedded_views_preview</key>
+    <true/>
+  </dict>
+</plist>
